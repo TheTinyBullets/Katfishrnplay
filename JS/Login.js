@@ -8,7 +8,7 @@ var {
   Image
 } = React;
 
-var FacebookLoginManager = require('NativeModules').FacebookLoginManager;
+// var FacebookLoginManager = require('NativeModules').FacebookLoginManager;
 
 var Login = React.createClass({
 

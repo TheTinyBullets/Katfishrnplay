@@ -56,6 +56,7 @@ var {
 var Katfish = React.createClass({
 
   render: function() {
+            //
     window.Katfish = this;
     if(!this.state){
       this.getToken();
@@ -63,12 +64,11 @@ var Katfish = React.createClass({
         <Image
         source={{uri: 'http://chrissalam.com/bash/sailing.png'}}
         style={styles.loginImage}>
-        <Login
-        style={styles.loginContainer}/>
+        <Login style={styles.loginContainer}/>
         </Image>
         );
     }
-    else{
+    else {
       return require('./js/TabBar')();
     }
   },
